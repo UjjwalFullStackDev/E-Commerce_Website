@@ -18,7 +18,7 @@ app.use('/api/v1/auth', authRoute)
 
 
 
-
+// Server Running code
 app.listen(port, () => {
     console.log(`Server listining on http:localhost:${port}`)
     connectDB();
